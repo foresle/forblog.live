@@ -1,0 +1,58 @@
+baseURL: https://forblog.live
+languageCode: ua
+title: forblog.live
+
+theme: minima
+copyright:  © 2022-2023 foresle
+googleAnalytics:
+paginate: 8
+defaultContentLanguage: ua
+
+author:
+  name: foresle
+  status: aka Орест Смертний
+  description: Клятий лінуксоїд та атеїст від бога.
+  
+params:
+  greet: foresle
+  subtitle:
+  switch: ["🌚", "🌝"]
+  defaultTheme: system
+  displayDate: true
+  displayDescription: true
+  selectable: true
+  social:
+    - name: "gitlab"
+      url: "https://gitlab.com/foresle"
+    - name: "matrix"
+      url: "https://matrix.to/#/@foresle:matrix.opulus.space"
+    - name: "pleroma"
+      url: "https://social.net.ua/foresle"
+    - name: "mastodon"
+      url: "https://mstdn.social/@foresle"
+    - name: "rss"
+      url: "/index.xml"
+      
+menu:
+  main:
+    - name: "Головна"
+      weight: 1
+      url: "/"
+    - identifier: tags
+      weight: 2
+    - identifier: series
+      weight: 3
+    - identifier: about
+      url: "/about/"
+      weight: 4
+      
+    
+
+taxonomies:
+  tag: tags
+  series: series
+  
+markup:
+  highlight:
+    lineNos: true
+    noClasses: false
