@@ -22,6 +22,8 @@ params:
   displayDescription: true
   selectable: true
   social:
+    - name: "github"
+      url: "https://github.com/foresle"
     - name: "gitlab"
       url: "https://gitlab.com/foresle"
     - name: "matrix"
